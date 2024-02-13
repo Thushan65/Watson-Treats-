@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Watson Treats</title>
+  </head>
+
+  <header id="header" class="padding-x py-8 absolute z-10 w-full dark:bg-black">
+    <nav class="flex justify-between items-center max-container">
+      <section>
+        <a href="./index.html">
+        <img src="Assets/logo_w.png" alt="Logo" class="w-40 h-20 top-0 right-0 ">
+        </a>
+      </section>
+  
+      <section>
+        <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden" id="navigation">
+          <li><a href="./index.html" class="font-montserrat leading-normal text-lg text-slate-gray">Home</a></li>
+          <li><a href="./afternoontea.html" class="font-montserrat leading-normal text-lg text-slate-gray">Afternoon Tea</a></li>
+          <li><a href="./cakes.html" class="font-montserrat leading-normal text-lg text-slate-gray">Cakes</a></li>
+          <li><a href="./catering.html" class="font-montserrat leading-normal text-lg text-slate-gray">Catering</a></li>
+        </ul>
+      </section>
+      <div class="hidden max-lg:block" id="menubtn">
+        <img src="Assets/hamburger.png" alt="Hamburger" width="35" height="35" class="top-0 right-0 pr-0" id="menu">
+      </div>
+    </nav>
+    </header>
+  
+    <section id="home" class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container dark:bg-black dark:max-w-full">
+      <div class="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 px-5">
+      <h1 id="name" class="mt-10 font-palanquin text-8xl max-sm:text-[1] max-sm:leading-[1] font-bold">
+        <span class="xl:bg-white xl:whitespace-nowrap relative pr-10 dark:bg-black dark:text-white-400">External Catering</span>
+        <br>
+        <span class="text-coral-red inline-block mt-3">Watson Treats</span>
+      </h1>
+      <p id="moto" class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">"Indulge in Every Slice, Delight in Every Bite!"</p>
+      <a href="./order.html" target="_blank">
+      <button class="flex justify-center items-start gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red" lable="show now">
+        Order Now
+        <img src="Assets/arrow-right.svg" alt="Arrow" class="ml-1 rounded-full w-5 h-5">
+      </button>
+     </a>
+      <div class="flex justify-starts items-start flex-wrap w-full mt-20 gap-1 dark:text-white-400">
+        <p class="text-xl font-bold font-palanquin">Fresh Quality |</p>
+        <p class="text-xl font-bold font-palanquin">Best Prices |</p>
+        <p class="text-xl font-bold font-palanquin">Friendly Service |</p>
+        <p class="text-xl font-bold font-palanquin">Great Experience</p>
+      </div>
+      </div>
+
+    <div class="flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-hero bg-cover bg-center max-sm:py-0 max-sm:pt-0" >
+      <img src="Assets/Home6.png" alt="Picture of a cake" width="610" height="500" class="object-contain relative pl-16  max-sm:py-0 max-sm:pt-0">
+    </div>
+  </section>
+
+  <body class="dark:bg-black">
+    <section class="flex justify-between items-center gap-10 w-full max-container max-sm:flex-col-reverse max-md:flex-col-reverse px-5 max-lg:flex-col-reverse">
+      <div class="flex-1 flex justify-center items-center">
+        <img src="Assets/catering2.jpg" alt="Picture of catering" width="570" height="522" class="object-contain transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+      </div>
+      <div class="flex flex-1 flex-col">
+        <h2 id="about" class="text-4xl capitalize font-palanquin font-bold lg:max-w-lg dark:text-white-400">About <span class="text-coral-red">our catering</span></h2>
+        <p id="c_header" class="mt-4 lg:max-w-lg info-text text-justify">
+          Elevate your business gatherings with the exquisite catering services from Watson Treats in Liverpool. Our expertise extends beyond our charming shop walls, offering a tantalizing array of cakes and sandwiches perfect for your corporate events or meetings. Delight your colleagues and clients with our freshly baked cakes, from decadent classics to delightful cupcakes, each a testament to our commitment to quality. Pair these delectable treats with our artisanal sandwiches, crafted with the finest ingredients to elevate your luncheons or office celebrations. Trust Watson Treats to add a touch of sweetness and savory perfection to your business affairs, ensuring every bite leaves a lasting impression. Experience the convenience and excellence of Watson Treats' catering services—where taste meets professionalism.
+        </p>
+      </div>
+    </section>
+
+    <section class="mt-5 grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-16 md:justify-center px-14 lg:justify-center lg:items-center">
+      <img src="Assets/catering1.jpeg" alt="Picture of catering" width="640" height="640" class="justify-center transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none rounded-xl">
+      <img src="Assets/catering3.jpeg" alt="Picture of catering" width="640" height="640" class="justify-center transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none rounded-xl">
+    </section>
+
+    <section class="text-2xl font-palanquin font-bold py-5 mt-10 text-center text-slate-gray">
+      <h3 class="text-coral-red">To book please contact us through our landline or email.</h3>
+      <h5>
+        Tel: 01512345678
+        <br>
+        Email:catering@watson.treats.co.uk
+      </h5>
+    </section>
+</body>
+
+<footer class="max-container bg-black max-w-full mt-5 w-screen dark:bg-slate-900">
+
+  <div class="flex justify-start items-start gap-5 flex-wrap max-lg:flex-col px-10 flex-col">
+
+    <div class="flex items-start max-2xl:flex-col">
+
+      <div class="flex flex-col">
+      <a href="/">
+        <img src="Assets/logo_w.png" alt="Logo" width="120" height="40" class="mt-5 border-spacing-1 border-coral-red">
+      </a>
+      <p class="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">"Indulge in sweetness at Watson Treats, where every visit promises a slice of joy and a taste of perfection. Join us for an exquisite cake experience in the heart of Liverpool!"</p>
+      
+      <div class="flex items-center gap-5 mt-8">
+        
+        <img src="Assets/ig.png" alt="Instergram" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+        <img src="Assets/mail.jpg" alt="Gmail" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+        <img src="Assets/in.png" alt="LinkedIn" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+        <img src="Assets/wtsp.png" alt="Whatsapp" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+        <img src="Assets/tiktok.png" alt="Tiktok" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+        <img src="Assets/fb.jpg" alt="Facebook" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+        
+      </div>
+      </div>
+
+      <div class="flex flex-1 justify-between lg:gap-10 gap-10 flex-wrap mt-10 px-28 max-2xl:px-0 max-lg:flex-col">
+
+        <div>
+          <h4 class="text-white font-montserrat text-2xl leading-normal font-medium mb-6">Opening Hours</h4>
+          <ul>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Monday - 9am to 9pm</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Tuesday - 9am to 9pm</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Wednesday - 9am to 9pm </li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Thursday - 9am to 9pm</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Friday - 9am to 9pm</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Saturday - 9am to 9pm</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Sunday - 9am to 5pm</li>
+          </ul>
+        </div>
+
+        <a href="./help.html" target="_blank">
+        <div>
+          <h4 class="text-white font-montserrat text-2xl leading-normal font-medium mb-6">Help</h4>
+          <ul>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">About Us</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">FAQ</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">How it Works</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Privacy Policy</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Food Safety</li>
+          </ul>
+        </div>
+        </a>
+
+        <div>
+          <h4 class="text-white font-montserrat text-2xl leading-normal font-medium mb-6">Contact Us:</h4>
+          <ul>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Mail us:contactus@watson.treats.co.uk</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Call us:01516754832</li>
+            <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Visit us: 25, Bradly Street, Liverpool, CH41 9BP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center px-10">
+    <div class="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer mb-5">
+      <p class="copy">&copy; CopyRight 2024.All right reserved</p>
+    </div>
+    <p class="font-montserrat cursor-pointer">Terms & Conditions</p>
+  </div>      
+</footer>
+</html>

@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Watson Treats</title>
+  </head>
+
+  <header id="header" class="padding-x py-8 absolute z-10 w-full dark:bg-black">
+    <nav class="flex justify-between items-center max-container">
+      <section>
+        <a href="./index.html">
+        <img src="Assets/logo_w.png" alt="Logo" class="w-40 h-20 top-0 right-0 ">
+        </a>
+      </section>
+  
+      <section>
+        <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden" id="navigation">
+          <li><a href="./index.html" class="font-montserrat leading-normal text-lg text-slate-gray">Home</a></li>
+          <li><a href="./afternoontea.html" class="font-montserrat leading-normal text-lg text-slate-gray">Afternoon Tea</a></li>
+          <li><a href="./cakes.html" class="font-montserrat leading-normal text-lg text-slate-gray">Cakes</a></li>
+          <li><a href="./catering.html" class="font-montserrat leading-normal text-lg text-slate-gray">Catering</a></li>
+        </ul>
+      </section>
+      <div class="hidden max-lg:block" id="menubtn">
+        <img src="Assets/hamburger.png" alt="Hamburger" width="35" height="35" class="top-0 right-0 pr-0" id="menu">
+      </div>
+    </nav>
+    </header>
+  
+    <section id="home" class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container dark:bg-black dark:max-w-full">
+      <div class="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 px-5">
+      <h1 id="name" class="mt-10 font-palanquin text-8xl max-sm:text-[1] max-sm:leading-[1] font-bold">
+        <span class="xl:bg-white xl:whitespace-nowrap relative pr-10 dark:bg-black dark:text-white-400">Afternoon Tea</span>
+        <br>
+        <span class="text-coral-red inline-block mt-3">Watson Treats</span>
+      </h1>
+      <p id="moto" class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">"Indulge in Every Slice, Delight in Every Bite!"</p>
+      <a href="./order.html" target="_blank">
+      <button class="flex justify-center items-start gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red" lable="show now">
+        Order Now
+        <img src="Assets/arrow-right.svg" alt="Arrow" class="ml-1 rounded-full w-5 h-5">
+      </button>
+     </a>
+      <div class="flex justify-starts items-start flex-wrap w-full mt-20 gap-1 dark:text-white-400">
+        <p class="text-xl font-bold font-palanquin">Fresh Quality |</p>
+        <p class="text-xl font-bold font-palanquin">Best Prices |</p>
+        <p class="text-xl font-bold font-palanquin">Friendly Service |</p>
+        <p class="text-xl font-bold font-palanquin">Great Experience</p>
+      </div>
+    </div>
+
+    <div class="flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-hero bg-cover bg-center max-sm:py-0 max-sm:pt-0" >
+      <img src="Assets/Home4.png" alt="Picture of a cake" width="610" height="500" class="object-contain relative pl-16  max-sm:py-0 max-sm:pt-0">
+    </div>
+  </section>
+
+  <body class="dark:bg-black">
+
+  <section class="flex justify-between items-center gap-10 w-full max-container max-sm:flex-col-reverse max-md:flex-col-reverse px-5 max-lg:flex-col-reverse">
+    <div class="flex-1 flex justify-center items-center">
+      <img src="Assets/AT_home.jpg" alt="Picture of an Aternoon Tea" width="670" height="642" class="object-contain transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+    </div>
+
+    <div class="flex flex-1 flex-col">
+      <p id="At_paragraph" class="mt-4 lg:max-w-xl info-text text-justify">Indulge in the quaint charm of Watson Treats, nestled in the heart near Liverpool, where every sip and bite tells a story of elegance and flavor. Our afternoon tea experience is a haven for tea enthusiasts and food connoisseurs alike. Delight in a selection of freshly baked scones, adorned with dollops of heavenly clotted cream and homemade jams. Dive into our delicate finger sandwiches, artfully crafted with premium ingredients, and lose yourself in the symphony of flavors from our assortment of delightful pastries and cakes. At Watson Treats, we elevate the afternoon tea tradition to an art form, offering a cozy ambiance that's perfect for catching up with friends or simply indulging in a moment of blissful solitude. Come, savor the moments with us at Watson Treats, where every sip and nibble whispers tales of pure culinary delight.</p>
+    </div>
+
+  </section>
+
+  <section class="max-container max-sm:mt-12">
+    <h2 id="about" class="text-4xl capitalize font-palanquin font-bold lg:max-w-lg dark:text-white-400">What are <span class="text-coral-red">your options</span></h2>
+  </section>
+
+  <Section class="mt-5 grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-16 md:justify-center px-5">
+    
+    <div id="option1" class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+        <h3 class="text-2xl capitalize font-palanquin font-bold bg-coral-red text-center rounded-xl">Traditional English afternoon tea option 01</h3>
+        <br>
+        <img src="Assets/O1.jpg" alt="Picture of an Aternoon Tea" class="rounded-xl">
+        <ul class="px-5">
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Three tea sandwiches.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Home-grown cucumber with borage flowers & herb butter.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Home-cured three-citrus salmon with dill lemon mayonnaise.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Rare roast beef sliced very thinly with horseradish cream and watercress.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Curried devilled eggs.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Salad garnishes.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Lettuce leaves with edible flowers, celery, cherry tomatoes.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Scones with cream and two jams, blackcurrant and strawberry rose.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Whole English strawberries.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Victoria sponge with raspberry redcurrant jam and vanilla buttercream.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Rose lemonade with mint.</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red font-bold marker:text-sky-700 list-disc">
+            A choice of tea:
+            <ul class="px-5">
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Assam: A strong full-bodied tea from India, which has a distinctive, 'malty' flavour.</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Darjeeling: An aromatic and astringent tea from India, with a hint of almonds and wildflowers.</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Earl Grey: A blend of black teas scented with oil of bergamot named after Charles, 2nd Earl Grey, who was Prime Minister from 1830 to 1834.</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Lapsang Souchong: A Chinese tea fired over smoking pine needles, which produces a striking smoky odour and flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Green Tea with Lemon.</li>
+            </ul>
+          </li>
+        </ul>
+      <p class="text-xl capitalize font-palanquin font-bold py-5">£24.99 per person or £36.99 per couple</p>
+      <a href="./order.html" target="_blank">
+        <button class="flex justify-center items-start gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red" lable="show now">
+          Order Now
+          <img src="Assets/arrow-right.svg" alt="Arrow" class="ml-1 rounded-full w-5 h-5">
+        </button>
+      </a>
+    </div>
+
+    <div id="option2" class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+        <h3 class="text-2xl capitalize font-palanquin font-bold text-coral-red bg-primary text-center rounded-xl">Traditional English afternoon tea option 02</h3>
+        <br>
+        <img src="Assets/O2.jpg" alt="Picture of an Aternoon Tea" class="rounded-xl">
+        <ul class="px-5">
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Three tea sandwiches</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Radish and cucumber on baguette rounds with salted herb butter</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Egg and cress squares on white bread</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Curried chicken and chutney triple-decker fingers</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Celery, stilton and sage tart</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Shaved celery salad with rocket and lemon dressing</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Lettuce leaves with edible flowers, cherry tomatoes and spring onions</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Scones with cream, raspberry jam and honey-ginger-apricot conserve</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">English strawberries with mint</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Seed cake</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Lemon drizzle cake or Lemon curd tarts</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Cornish butter and lavender shortbread</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red font-bold marker:text-sky-700 list-disc">
+            A choice of tea:
+            <ul class="px-5">
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Assam: A strong full-bodied tea from India, which has a distinctive, 'malty' flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Darjeeling: An aromatic and astringent tea from India, with a hint of almonds and wildflowers</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Earl Grey: A blend of black teas scented with oil of bergamot named after Charles, 2nd Earl Grey, who was Prime Minister from 1830 to 1834</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Lapsang Souchong: A Chinese tea fired over smoking pine needles, which produces a striking smoky odour and flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Green Tea with Lemon</li>
+            </ul>
+          </li>
+        </ul>
+      <p class="text-xl capitalize font-palanquin font-bold py-5">£25.99 per person or £37.99 per couple</p>
+      <a href="./order.html" target="_blank">
+        <button class="flex justify-center items-start gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red" lable="show now">
+          Order Now
+          <img src="Assets/arrow-right.svg" alt="Arrow" class="ml-1 rounded-full w-5 h-5">
+        </button>
+      </a>
+    </div>
+
+    <div id="option3" class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+      <h3 class="text-2xl capitalize font-palanquin font-bold text-coral-red bg-primary text-center rounded-xl">Southern-inspired tea</h3>
+        <br>
+        <img src="Assets/O3.jpg" alt="Picture of an Aternoon Tea" class="rounded-xl">
+        <ul class="px-5">
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Homemade ham spread with pickle relish in tomato baskets</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Finger sandwiches of chicken mayonnaise with tarragon and grapes</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Cheddar and red pepper sandwich triangles</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Devilled eggs</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Sweet corn and bacon mini muffins with chive butter</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Green bean salad on lettuce cups</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Bread and butter pickles</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Elegant Pound Cake with peaches and cream</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Caramel pecan “millionaires”</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Iced tea with mint and strawberries</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red font-bold marker:text-sky-700 list-disc">
+            A choice of tea:
+            <ul class="px-5">
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Assam: A strong full-bodied tea from India, which has a distinctive, 'malty' flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Darjeeling: An aromatic and astringent tea from India, with a hint of almonds and wildflowers</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Earl Grey: A blend of black teas scented with oil of bergamot named after Charles, 2nd Earl Grey, who was Prime Minister from 1830 to 1834</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Lapsang Souchong: A Chinese tea fired over smoking pine needles, which produces a striking smoky odour and flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Green Tea with Lemon</li>
+            </ul>
+          </li>
+        </ul>
+      <p class="text-xl capitalize font-palanquin font-bold py-5">£23.99 per person or £34.99 per couple</p>
+      <a href="./order.html" target="_blank">
+        <button class="flex justify-center items-start gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red" lable="show now">
+          Order Now
+          <img src="Assets/arrow-right.svg" alt="Arrow" class="ml-1 rounded-full w-5 h-5">
+        </button>
+      </a>
+    </div>
+
+    <div id="option4" class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+      <h3 class="text-2xl capitalize font-palanquin font-bold bg-coral-red text-center rounded-xl">Scandinavian-inspired tea for eight</h3>
+        <br>
+        <img src="Assets/O4.jpeg" alt="Picture of an Aternoon Tea" class="rounded-xl">
+        <ul class="px-5">
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Three smørrebrøds</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Salmon, egg and shrimp</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Jarlsberg and sweet pepper</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Frikadeller with fried onions and pickle</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Salad platter with radishes, cucumbers in dill vinaigrette, celery with goat cheese</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Cherry tomatoes, white asparagus spears, lettuces</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Norwegian waffles with sour cream and strawberry jam</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Swedish Toscakaka with almond caramel topping</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red marker:text-sky-700 list-disc">Coffee</li>
+          <li class="mt-3 text-slate-gray font-montserrat text-base leading-normal hover:text-coral-red font-bold marker:text-sky-700 list-disc">
+            A choice of tea:
+            <ul class="px-5">
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Assam: A strong full-bodied tea from India, which has a distinctive, 'malty' flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Darjeeling: An aromatic and astringent tea from India, with a hint of almonds and wildflowers</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Earl Grey: A blend of black teas scented with oil of bergamot named after Charles, 2nd Earl Grey, who was Prime Minister from 1830 to 1834</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Lapsang Souchong: A Chinese tea fired over smoking pine needles, which produces a striking smoky odour and flavour</li>
+              <li class="text-coral-red font-montserrat text-base leading-normal hover:text-slate-gray px-5 font-normal marker:text-black list-disc dark:marker:text-white">Green Tea with Lemon</li>
+            </ul>
+          </li>
+        </ul>
+      <p class="text-xl capitalize font-palanquin font-bold py-5">£22.99 per person or £33.99 per couple</p>
+      <a href="./order.html" target="_blank">
+        <button class="flex justify-center items-start gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red" lable="show now">
+          Order Now
+          <img src="Assets/arrow-right.svg" alt="Arrow" class="ml-1 rounded-full w-5 h-5">
+        </button>
+      </a>
+    </div>
+  </Section>
+  </body>
+  
+<footer class="max-container bg-black max-w-full mt-5 w-screen dark:bg-slate-900">
+
+      <div class="flex justify-start items-start gap-5 flex-wrap max-lg:flex-col px-10 flex-col">
+
+        <div class="flex items-start max-2xl:flex-col">
+
+          <div class="flex flex-col">
+          <a href="/">
+            <img src="Assets/logo_w.png" alt="Logo" width="120" height="40" class="mt-5 border-spacing-1 border-coral-red">
+          </a>
+          <p class="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">"Indulge in sweetness at Watson Treats, where every visit promises a slice of joy and a taste of perfection. Join us for an exquisite cake experience in the heart of Liverpool!"</p>
+          
+          <div class="flex items-center gap-5 mt-8">
+            
+            <img src="Assets/ig.png" alt="Instergram" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+            <img src="Assets/mail.jpg" alt="Gmail" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+            <img src="Assets/in.png" alt="LinkedIn" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+            <img src="Assets/wtsp.png" alt="Whatsapp" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+            <img src="Assets/tiktok.png" alt="Tiktok" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+            <img src="Assets/fb.jpg" alt="Facebook" width="24" height="24" class="flex justify-center items-center w-12 h-12 bg-white">
+            
+          </div>
+          </div>
+
+          <div class="flex flex-1 justify-between lg:gap-10 gap-10 flex-wrap mt-10 px-28 max-2xl:px-0 max-lg:flex-col">
+
+            <div>
+              <h4 class="text-white font-montserrat text-2xl leading-normal font-medium mb-6">Opening Hours</h4>
+              <ul>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Monday - 9am to 9pm</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Tuesday - 9am to 9pm</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Wednesday - 9am to 9pm </li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Thursday - 9am to 9pm</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Friday - 9am to 9pm</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Saturday - 9am to 9pm</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Sunday - 9am to 5pm</li>
+              </ul>
+            </div>
+
+            <a href="./help.html" target="_blank">
+            <div>
+              <h4 class="text-white font-montserrat text-2xl leading-normal font-medium mb-6">Help</h4>
+              <ul>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">About Us</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">FAQ</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">How it Works</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Privacy Policy</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Food Safety</li>
+              </ul>
+            </div>
+            </a>
+
+            <div>
+              <h4 class="text-white font-montserrat text-2xl leading-normal font-medium mb-6">Contact Us:</h4>
+              <ul>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Mail us:contactus@watson.treats.co.uk</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Call us:01516754832</li>
+                <li class="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">Visit us: 25, Bradly Street, Liverpool, CH41 9BP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center px-10">
+        <div class="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer mb-5">
+          <p class="copy">&copy; CopyRight 2024.All right reserved</p>
+        </div>
+        <p class="font-montserrat cursor-pointer">Terms & Conditions</p>
+      </div>      
+  </footer>
+  </html>
